@@ -10,12 +10,5 @@ public class Main {
             executorService.execute(runnable);
         }
     }
-}
-
-
 //Напишите программу, которая создаст два потока, которые по очереди будут выводить числа.
 // Первый поток чётные числа, второй потом нечётные.
-
-
-/*Thread oddNumberThread = new Thread(runnable, "Четный поток");
-        Thread evenNumberThread = new Thread(runnable, "Нечетный поток");*/
